@@ -30,8 +30,6 @@ const ResetPassword: React.FC = () => {
 
   const history = useHistory();
 
-  console.log(location.search);
-
   const handleSubmit = useCallback(
     async (data: ResetPasswordFormData) => {
       try {
